@@ -12,3 +12,4 @@ git push --all
 
 despues el problema fue quue este proyecto lo quise hacer dentro del repositorio de mis proyectos porque decian que debian estar guardados en ciertas carpetas los archivos como el de streamlit y el de EDA en notbook y sin embarga jamaz me cargo me dijo el maestro que creara un nuevo repositorio solo para estoy asi lo hice cualquier duda o comentario estoy abierto a sugerencias erick no ira guiando como cargar nuetra web de nustros repositorios y pues en esto estoy subiendo mis proyectos a GitHub
 
+[Ver Proyecto](https://notebooks-o54z.onrender.com)
