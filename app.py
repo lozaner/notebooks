@@ -20,3 +20,17 @@ if st.checkbox('Generar Histograma'):
     st.write('Condiciones de los Vehículos')
     fig = px.histogram(car_data, x = 'model_year', color='condition', histnorm='percent', opacity=0.75)
     st.plotly_chart(fig, use_container_width=True)
+    
+ 
+
+
+hist_button = st.button('Construir histograma')    
+if hist_button:
+    # escribir un mensaje
+    st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
+            
+    # crear un histograma
+    fig = px.histogram(car_data, x="odometer")
+        
+    # mostrar un gráfico Plotly interactivo
+    st.plotly_chart(fig, use_container_width=True)
